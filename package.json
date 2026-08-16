@@ -1,0 +1,16 @@
+{
+  "name": "mccompanion",
+  "version": "0.1.0",
+  "description": "Client for the public MCCompanion API: Minecraft Java and Bedrock account lookups, server metrics, skins and resource packs.",
+  "type": "module",
+  "main": "./src/index.js",
+  "types": "./src/index.d.ts",
+  "exports": { ".": { "types": "./src/index.d.ts", "default": "./src/index.js" } },
+  "files": ["src", "README.md"],
+  "engines": { "node": ">=18" },
+  "keywords": ["minecraft", "bedrock", "java", "xuid", "uuid", "skins", "mccompanion"],
+  "license": "MIT",
+  "repository": { "type": "git", "url": "https://github.com/MCCORG/MCCompanionLib" },
+  "homepage": "https://mccompanion.net",
+  "scripts": { "test": "node test/smoke.test.mjs && node test/throttle.test.mjs" }
+}
