@@ -85,4 +85,7 @@ Every method takes `{ signal }` if you want to cancel a request yourself.
 
 Everything behind a login. That part of the API authenticates with a Firebase
 token issued to the MCCompanion app, which a third party cannot obtain, so
-wrapping it would promise something that cannot work.
+wrapping it would promise something that cannot work.  
+[GitHub](https://github.com/MCCORG/MCCompanionLib)\
+[GitLab](https://gitlab.com/mccorg/MCCompanionLib)\
+[Codeberg](https://codeberg.org/mccorg/MCCompanionLib)
